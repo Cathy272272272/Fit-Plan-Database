@@ -1,0 +1,28 @@
+<html>
+<body>
+<p>
+    Update a meal.
+</p>
+<form action="UpdateMeals.php" method="get">
+    mealID: <input name="mealID" type="number" title="mealID" placeholder="eg. 1">
+    <br>
+    <b>Please select a meal category:</b><br>
+    <select name="meal">
+        <option value="Please select">Please select</option>
+        <option value="Increase_muscle_Meal"> Increase_muscle_Meal</option>
+        <option value="Reduce_fat_Meal"> Reduce_fat_Meal</option>
+    </select>
+    <br>
+    Calories of a meal: <input name="calories" type="float" title="calories" placeholder="eg. 100.00">
+    <br>
+    <br>
+    <input type="submit" value="Submit">
+
+</form>
+
+<br>
+<form action="./index.html">
+    <input type="submit" value="Go back to Home Page.">
+</form>
+</body>
+</html>

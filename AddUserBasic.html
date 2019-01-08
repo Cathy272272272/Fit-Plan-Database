@@ -1,0 +1,29 @@
+<html>
+<body>
+<p>
+    Add a new user into database.
+</p>
+<form action="AddUserBasic.php" method="get">
+    First Name: <input name="firstName" type="text" title="firstname" placeholder="eg. Cathy" maxlength="140" required>
+    <br>
+    Last Name: <input name="lastName" type="text" title="lastname" placeholder="eg. Xu" maxlength="140" required>
+    <br>
+    Email: <input name="email" type="email" title="email" placeholder="eg. cx@uc.edu" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" required>
+    <br>
+    Street: <input name="street" type="text" title="street" placeholder="eg. Jane Street" maxlength="140" required>
+    <br>
+    City: <input name="city" type="text" title="city" placeholder="eg. Chicago" maxlength="140" required>
+    <br>
+    State: <input name="state" type="text" title="state" placeholder="eg. IL" maxlength="140" required>
+    <br>
+    <br>
+    <input type="submit" value="Submit">
+
+</form>
+
+<br>
+<form action="./index.html">
+    <input type="submit" value="Go back to Home Page.">
+</form>
+</body>
+</html>

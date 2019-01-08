@@ -1,0 +1,42 @@
+<html>
+<body>
+<p>
+    Add a record to a user's(ID 1 - 100) health information.
+    <br>
+    Only one entry per day.
+    You are not allowed to add more than 1 record each day.
+</p>
+<form action="AddUserHealth.php" method="get">
+    UserID: <input name="userID" type="number" title="userID" placeholder="eg. 1" pattern="[0-9]$" required>
+    <br>
+    Age: <input name="age" type="number" title="age" placeholder="eg. 21" pattern="[0-9]$" required>
+    <br>
+    Gender:
+    <select name="gender">
+        <option value="F">F</option>
+        <option value="M">M</option>
+    </select>
+    <br>
+    Blood Type:
+    <select name="bloodType">
+        <option value="A">A</option>
+        <option value="B">B</option>
+        <option value="O">O</option>
+        <option value="AB">AB</option>
+    </select>
+    <br>
+    Weight: <input name="weight" type="float" title="weight" placeholder="eg. 50.00">
+    <br>
+    Height: <input name="height" type="float" title="height" placeholder="eg. 160.00">
+    <br>
+    <br>
+    <input type="submit" value="Submit">
+
+</form>
+
+<br>
+<form action="./index.html">
+    <input type="submit" value="Go back to Home Page.">
+</form>
+</body>
+</html>
